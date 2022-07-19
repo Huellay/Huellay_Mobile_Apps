@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".new_creator">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="New Creator"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Choose the creator"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+
+            android:textStyle="normal">
+
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="255dp"
+            android:layout_height="43dp"
+            android:id="@+id/artisian_card"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:text="Artisian"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+
+                    android:layout_height="25dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/artist">
+
+                </ImageView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="255dp"
+            android:layout_height="43dp"
+            android:id="@+id/dancer_card"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:text="Dancer"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+
+                    android:layout_height="25dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/dance">
+
+                </ImageView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="255dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/singer_card"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:text="Singer"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+
+                    android:layout_height="25dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/singer">
+
+                </ImageView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="255dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:id="@+id/music_card"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:text="Musician"
+
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+
+                    android:layout_height="25dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/musician">
+
+                </ImageView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="255dp"
+            android:layout_height="43dp"
+            android:id="@+id/farmer_card"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:text="Farmer"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+
+                    android:layout_height="25dp">
+
+                </TextView>
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/farmer">
+
+                </ImageView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="255dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/practit_card"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:text="Practitioner"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+
+                    android:layout_height="25dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/pract">
+
+                </ImageView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="255dp"
+            android:layout_height="43dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/guide_card"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:text="Guide"
+                    android:textStyle="normal"
+                    android:textAlignment="textStart"
+
+                    android:layout_height="25dp">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:src="@drawable/guide">
+
+                </ImageView>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>
