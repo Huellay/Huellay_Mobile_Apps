@@ -1,4 +1,4 @@
-# Huellay_Mobile_Apps
+# Quick Navigator
 
 #### Figma Design V2: https://www.figma.com/file/RKJjnJrQKMdJ0uLWz6zTrv/Design-v2?node-id=0%3A1
 
