@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.screen_confirm">
+    package="com.example.huellay">
 
     <application
         android:allowBackup="true"
@@ -14,25 +14,25 @@
         android:theme="@style/Theme.Screen_Confirm"
         tools:targetApi="31">
         <activity
-            android:name=".profile_frag"
+            android:name=".ProfileFragment"
             android:exported="false" />
         <activity
-            android:name=".saved_frag"
+            android:name=".SavedFragment"
             android:exported="false" />
         <activity
-            android:name=".search_frag"
+            android:name=".SearchFragment"
             android:exported="false" />
         <activity
-            android:name=".Post_frag"
+            android:name=".PostFragment"
             android:exported="false" />
         <activity
-            android:name=".notification_screen"
+            android:name=".NotificationActivity"
             android:exported="false" />
         <activity
-            android:name=".login_screen"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".new_creator"
+            android:name=".NewCreatorActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

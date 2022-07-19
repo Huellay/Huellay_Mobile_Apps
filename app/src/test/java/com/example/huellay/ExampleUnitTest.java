@@ -1,4 +1,4 @@
-package com.example.screen_confirm;
+package com.example.huellay;
 
 import org.junit.Test;
 
