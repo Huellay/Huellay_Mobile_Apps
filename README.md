@@ -5,3 +5,5 @@
 #### Video Explanation of Designs: https://youtu.be/91XE4gW_CDc
 
 #### Slack Communication Channel: https://app.slack.com/client/T03Q3M748V8/C03Q3Q7RZDY
+
+#### JIRA: https://affine-global.atlassian.net/jira/software/projects/HMA/boards/3
