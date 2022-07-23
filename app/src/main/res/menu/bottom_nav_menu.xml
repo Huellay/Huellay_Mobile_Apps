@@ -11,15 +11,13 @@
     <item
         android:id="@+id/post"
         android:title="Post"
-        android:icon="@drawable/post"
-
-        />
+        android:icon="@drawable/post" />
     <item
         android:id="@+id/saved"
         android:title="Saved"
         android:icon="@drawable/saved"/>
     <item
-        android:id="@+id/account"
+        android:id="@+id/profile"
         android:title="Profile"
         android:icon="@drawable/account"/>
 </menu>
